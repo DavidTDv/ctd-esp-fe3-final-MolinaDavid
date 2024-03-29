@@ -1,0 +1,41 @@
+.App {
+    --color-primary: #4f1c16;
+    --color-secondary: #8d0000;
+    --color-accent: #6b352c;
+    --color-background: #FF4500;
+    --color-paper: #ffe49a;
+    --color-text: #ffffffe5;
+
+    --color-rainbow-1: #8d0000;
+    --color-rainbow-2: #4f1c16;
+    --color-rainbow-3: #4f1c16;
+    --color-rainbow-4: #FF4500;
+    --color-rainbow-5: #ffe49a;
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--color-background);
+}
+
+.App:is(.dark) {
+    --color-primary: #FFDAB9;
+    --color-secondary: #FF6347;
+    --color-accent: #FFA07A;
+    --color-background: #944424;
+    --color-paper: #FF6347;
+    --color-text: #000000e5;
+
+    --color-rainbow-1: #FF6347;
+    --color-rainbow-2: #FFDAB9;
+    --color-rainbow-3: #FF6347;
+    --color-rainbow-4: #FF6347;
+    --color-rainbow-5: #FFA07A;
+    background-color: var(--color-background);
+}
+
+.App > main {
+    flex-grow: 1;
+    display: flex;
+    overflow-y: auto;
+}

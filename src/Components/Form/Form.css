@@ -11,7 +11,7 @@
 .form-wrapper .form-errors {
     font-size: 1.2rem;
     text-align: center;
-    color: #FFDAB9;
+    color: #B08FD1;
 }
 
 .form-wrapper .form-errors > * {
@@ -21,7 +21,7 @@
 .form-wrapper .form-success {
     font-size: 1.2rem;
     text-align: center;
-    color: #FFDAB9;
+    color: #B08FD1;
 }
 
 .form-wrapper form {
@@ -38,7 +38,7 @@
 form label {
     display: block;
     font-size: 1.2rem;
-    color: #FFDAB9;
+    color: #B08FD1;
 }
 
 form input {
@@ -47,7 +47,7 @@ form input {
     font-size: 1rem;
     margin-top: 0.5rem;
     padding: 0.4rem 0.7rem;
-    border: 1px solid #FFDAB9;
+    border: 1px solid #B08FD1;
     border-radius: 4px;
     color: black;
     
@@ -64,7 +64,7 @@ form input {
 }
 
 .App form input[type=submit]:not([disabled]):hover {
-    background: #FFDAB9;
+    background: #B08FD1;
     color: black;
 }
 
